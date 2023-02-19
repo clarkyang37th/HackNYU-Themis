@@ -88,7 +88,7 @@ def query_tf(tokenized_string):
 def st(query, dic, length, i):
     for tok in query:
         if tok not in dic:
-            dic[tok] = [0] * length  # 创建一个长度numberdoc，所有元素都为0的数组
+            dic[tok] = [0] * length 
             dic[tok][i] = 1
         else:
             dic[tok][i] = dic[tok][i] + 1
@@ -105,20 +105,6 @@ def tok_occurency(query_tokens, is_abstract=False):
                 dic = st(sentence, dic, number_docs, i)
 
     return dic
-# def query_tok_occurency(query_tokens):
-#     number_docs = len(query_tokens)
-#     dic = {}
-#     count = 0 
-#     for query in query_tokens:
-#         for tok in query:
-#             if tok not in dic:
-#                 dic[tok] = [0]*number_docs#创建一个长度numberdoc，所有元素都为0的数组 
-#                 dic[tok][count] = 1 
-#             else:
-#                 dic[tok][count] = dic[tok][count] +1 
-#         count = count + 1 
-
-#     return dic 
 
 def idf(query_dic,total_docs):
     dic = {}
