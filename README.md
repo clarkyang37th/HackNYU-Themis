@@ -22,3 +22,5 @@ Human trafficking is a very taboo topic that many of us didn't know much about b
 ## What's next for Themis
 With more time, we plan to expand and refine the capabilities of Themis. The text analyzer code would be able to enlarge the data set and make a classification for the labels. The facial recognition program would be able to make comparisons with the faces it recognizes, both on film and pictures, and be refined to be effective on degraded file quality or faces that aren't turned toward the camera exactly. The audio system will be further built upon so it can recognize voice patterns even when the tape is distorted, such as if traffickers intentionally masked their voice by raising the recording octave. 
 If expanded on a global scale, law enforcement can take a more victim-centered approach, as they will quickly be able to corroborate victim statements and prosecute traffickers. Human traffickers have taken much of their crime online, and it's time we fight back with technology, too. 
+
+themisjustice.tech
